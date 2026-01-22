@@ -17,7 +17,7 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//a[text()=' Log in ']")
     WebElement btnLogin;
 
-    @FindBy(xpath = "a//[contains(@href, '/registration')]")
+    @FindBy(xpath = "//a[contains(@href, '/registration')]")
     WebElement btnSignUp;
 
     public void clickBtnLogin(){
